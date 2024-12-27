@@ -65,7 +65,7 @@ fun MessageList(modifier: Modifier= Modifier, messageList : List<MessageModel>){
                 painter = painterResource(id = R.drawable.baseline_question_answer_24),
                 contentDescription = "Icon",
                 tint = Purple80)
-            Text(text = "Anything me anything", fontSize = 22.sp)
+            Text(text = "Ask me anything", fontSize = 22.sp)
         }
 
     }else {
